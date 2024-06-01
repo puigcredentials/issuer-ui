@@ -1,0 +1,39 @@
+{
+  "credentialProcedures": [
+    {
+      "id": "5e6e",
+      "procedure_id": "proc-1715946518470",
+      "full_name": "james teo",
+      "status": "Withdrawn",
+      "updated": "2024-05-17",
+      "credential": {
+        "mandatee": {
+          "first_name": "james",
+          "last_name": "teo",
+          "email": "test@puig.xeill.net",
+          "mobile_phone": "+44 007007007"
+        },
+        "mandator": {
+          "organizationIdentifier": "VATES-B60SDD2",
+          "organization": "Institut Puig Castellar",
+          "commonName": "PUIG",
+          "emailAddress": "secretaria@elpuig.xeill.net",
+          "serialNumber": "B60645900",
+          "country": "ES"
+        },
+        "power": [
+          {
+            "tmf_action": [
+              "ASIX",
+              "DAM",
+              "DAU"
+            ],
+            "tmf_domain": "PUIG",
+            "tmf_function": "Superior Cycle",
+            "tmf_type": "Domain"
+          }
+        ]
+      }
+    }
+  ]
+}

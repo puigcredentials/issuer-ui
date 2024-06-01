@@ -1,0 +1,151 @@
+<div class="landing-page">
+  <div class="container-nav">
+    <header class="main-header">
+      <nav class="navbar">
+        <div class="navbar-brand" href="/">
+          <a href="/">
+            <img
+              class="logo"
+              src="../../../assets/logo/logo.png"
+              alt="Logo"
+            />
+          </a>
+        </div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://puig.mycredential.eu/docs/" target="_blank" rel="noopener noreferrer" tabindex="0">Docs</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="cover" id="cover">
+      <div class="cover-content">
+        <h1>Welcome to the Puig Issuer for StudentCredentials</h1>
+        <div class="scroll-indicator">
+          <a class="btn btn-primary" href="https://puig.mycredential.eu/docs/" target="_blank" rel="noopener noreferrer" tabindex="0">
+            Learn More
+            <img src="../../../assets/icon/fletxa_dreta.png" alt="arrow">
+          </a>
+          <p class="scroller">Scroll to see more</p>
+          <a class="btn btn-link" href="#about-section" tabindex="0">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="64"
+              height="64"
+              viewBox="0 0 24 24"
+            >
+              <defs>
+                <pattern
+                  id="image-bg"
+                  patternUnits="userSpaceOnUse"
+                  width="24"
+                  height="24"
+                >
+                  <image
+                    href="/assets/background/fondoIssuer.png"
+                    x="0"
+                    y="0"
+                    width="24"
+                    height="24"
+                  />
+                </pattern>
+              </defs>
+              <circle cx="12" cy="12" r="10" fill="#DDE6F6" />
+              <path
+                fill="none"
+                stroke="url(#image-bg)"
+                stroke-width="2"
+                d="M8 10l4 4 4-4"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section id="about-section" class="content-section">
+    <div class="content-wrapper">
+      <p>
+        This site is intended for Principals of  secondary school who want to
+        issue one or more StudentCredentials to one or more students of the
+        school.
+      </p>
+      <ul>
+        <li>
+          The issuer of the StudentCredential
+          <strong>must be the principal</strong> of the school. The
+          principal will sign the StudentCredential with an
+          digital certificate, which can be either a personal one or a
+          certificate of representation.
+        </li>
+        <li>
+          The receiver of the Student (both the subject and holder of the
+          credential) <strong>can be any student</strong> of
+          the school. The principal will delegate a restricted set
+          of power to that person that represents the different superior cycles. Those restricted power are included inside
+          the credential and can be verified by any Relying party to whom the
+          holder presents the StudentCredential.
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="principal">
+      <p>
+        You need a certificate to be able to use the system. In addition
+        you will have to register your entity email.
+      </p>
+      <p>
+        Note: if you are reading this in your mobile, most probably the button
+        will not work, unless you have installed your certificate in the
+        mobile. You typically need to use a PC, with the certificate installed
+        in the browser.
+      </p>
+      <a class="btn-secondary" tabindex="0">Login as Principal</a>
+    </div>
+  </section>
+
+  <section class="content-section wallet-section">
+    <div class="wallet-description">
+      <p>
+        In addition, you can obtain the DOME Wallet to store the credentials,
+        and test them to authenticate to a test Verifier (acting as Relying
+        Party).
+      </p>
+    </div>
+    <div class="wallet-info-container">
+      <div class="wallet-info-qr">
+        <img class="wallet-logo" src="../../../assets/icon/wallet.png" alt="wallet">
+        <h2>Obtain your wallet</h2>
+        <p>
+          You need a wallet to store your Credentials and present them to
+          Relaying parties.
+        </p>
+        <img
+          src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQMAAABmvDolAAAABlBMVEX///8AAABVwtN+AAABoElEQVR42uyYPXKEMAyFn4eCkiNwFI5mH81H4QiUFIxf5snALhvSZtYaVGSC8jWR9fMkPPbYY19rA2UrpmQfOb5croAZQLcOTIFcRqaw7i5nwMQigMJmRAHmcgnkyA3Y4+AWwJTCpqwGnQJ7CsfjA7dp3zpQG9KQY9j6ZczK6rsm1jhwcqmgJwX8MXiaBo5WnLEXL3rOsEpuCWD9E6IecCSLYd4AYGKgnrF0PF7TtIIrQKOyAEM+uk6gKtQdIH3X1Tis+0BhvnRaF8AMWPNJBcCYo7XZFOgLUFabFtCjo45PuS5p3z4gyWP6R21JQanPfZVJ7QP2r3dcJupXaVouZ1D8AMNcN80MLWKYpIjI9L5vugBqpQ4ZpdLFsvqiaT0A81mp5ovlCI03IJl0B6QDq5j4zIevB17KnFuvpDUVxDvp3jJwLlVV+Exp35q9AfuKLJ/tWaya9tda3Tpw3EBKJzULiws/itcNgGgDBbH0+vm+kHoCbJJI/4QaCHfAeb7qFAcUO/jcHO7aBo6LlsmDuqjUG4Ir4LHHHvt3+wkAAP//DQRXndz8xuAAAAAASUVORK5CYII="
+          alt="Wallet QR Code"
+        />
+        <p>
+          Scan this QR code or go in your mobile to
+          <a href="https://puig-wallet.eu/" target="_blank" rel="noopener noreferrer" tabindex="0">wallet.mycredential.eu</a>
+        </p>
+      </div>
+      <div class="wallet-info-text">
+        <img class="verifier-logo" src="../../../assets/icon/verifier.png" alt="wallet">
+        <h2>Test the credential with a Verifier</h2>
+        <p>
+          Use your Credential in your wallet to authenticate to a test
+          Verifier, without user or password.
+        </p>
+        <p>
+          In this way you can see how everything works and will become familiar
+          with the flows.
+        </p>
+        <a class="btn-verifier" href="https://demo.mycredential.eu/" target="_blank" rel="noopener noreferrer" tabindex="0">Go to the test Verifier</a>
+      </div>
+    </div>
+  </section>
+</div>
